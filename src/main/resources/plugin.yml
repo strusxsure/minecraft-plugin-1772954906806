@@ -1,0 +1,16 @@
+name: SoulBoundSMP
+version: 1.0.0
+main: com.stormai.plugin.SoulBoundSMP
+api-version: 1.21
+description: A plugin where players collect Souls, manage abilities, and revive from a weakened state.
+commands:
+  souls:
+    description: Opens the Souls GUI or manages abilities.
+    usage: /souls <info|abilities|consume|revive>
+permissions:
+  souls.use:
+    description: Allows use of /souls command.
+    default: true
+  souls.admin:
+    description: Grants operator privileges for premium features.
+    default: op
